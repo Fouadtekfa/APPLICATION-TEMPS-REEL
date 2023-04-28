@@ -18,6 +18,13 @@
 </script>
 <script>
     var socket=io();
+
+
+
+    var send =function() {
+        var text = document.getElementById('m').value;
+        socket.emit("chat message", text);
+    }
 </script>
 <div>
     <ul id="messages"></ul>

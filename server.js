@@ -12,8 +12,8 @@ io.on("connection",function (socket){
    socket.on("disconnect",function (){
       console.log('a user is disconnected');
    });
-   socket.on("chat message ",function (){
-      console.log('message recu '+msg);
+   socket.on("chat message",function (msg){
+      console.log('message recu:  '+msg);
    });
 });
 //lancer le serveur
