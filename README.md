@@ -12,3 +12,6 @@ Ce code est une application de chat simple construite avec Socket.IO et Express.
 - [ ] Exécutez npm start pour démarrer le serveur.
 - [ ] Ouvrez un navigateur Web et accédez à http://localhost:3000.
 
+## Capture d'écran de l'application en action 
+
+![capture](./Capture_res.png)
